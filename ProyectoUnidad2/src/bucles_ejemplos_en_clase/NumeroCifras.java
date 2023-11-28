@@ -2,7 +2,7 @@ package bucles_ejemplos_en_clase;
 
 import java.util.Scanner;
 
-public class Ejercicio_7_bucles_DEBERES {
+public class NumeroCifras {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class Ejercicio_7_bucles_DEBERES {
         //Variable axuliar para no modificar la varible original
         int numeroAux=0;
         
-        System.out.println("Ingresa un número binario para pasarlo a decimal: ");
+        System.out.println("Ingresa un número para contar cuantas cifras tiene: ");
         	numero = scanner.nextInt();
 
         	numeroAux = numero;  
@@ -25,5 +25,5 @@ public class Ejercicio_7_bucles_DEBERES {
        
         System.out.println("El número de cifras en " + numero + " es: " + contadorCifras);
 	}
-	
+
 }
