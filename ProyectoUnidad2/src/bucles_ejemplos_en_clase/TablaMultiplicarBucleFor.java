@@ -1,8 +1,9 @@
+
 package bucles_ejemplos_en_clase;
 
 import java.util.Scanner;
 
-public class TablaMultiplicarBucleFor {
+public class TablaMultiplicarBucleFor{
 
 	public static void main(String[] args) {
 		
