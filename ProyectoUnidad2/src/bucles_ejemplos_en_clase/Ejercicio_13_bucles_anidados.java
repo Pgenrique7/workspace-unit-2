@@ -41,7 +41,7 @@ public class Ejercicio_13_bucles_anidados {
         
         	for(int i=1; i<=altura;i++) {
         		
-        		for (int j=1; j>=i; j++) {
+        		for (int j=i; j>=1; j--) {
         			
         			int impares=(2*j)-1;
         			
