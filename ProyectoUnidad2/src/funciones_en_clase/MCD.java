@@ -103,7 +103,7 @@ public class MCD {
 		
 		
 		
-		//Transformamos el ultimo numero
+		//Transformamos el ultimo numero 
 		result= (int) (digit*Math.pow(10,numDigits-1));
 		
 		
